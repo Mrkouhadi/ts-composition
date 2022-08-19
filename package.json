@@ -1,0 +1,19 @@
+{
+  "name": "soccer-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.5",
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}
